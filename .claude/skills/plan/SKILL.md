@@ -1,3 +1,8 @@
+---
+name: plan
+description: research.md と selected-repos.md を読んで Claude Code プロジェクトの完全な設計図（plan.md）を作成する。planner と critic が最大4ラウンドで設計品質を徹底的に高める。
+---
+
 # /plan スキル
 
 `research.md` と `selected-repos.md` を読んで Claude Code プロジェクトの完全な設計図を作成する。

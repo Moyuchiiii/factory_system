@@ -1,3 +1,8 @@
+---
+name: select-repos
+description: research.md を読んでビジネスアイデアに必要なリポジトリを選定し selected-repos.md を生成する。book/ の全リポジトリを参照して plugin/clone/copy/mcp/reference の5種別に分類。critic が最大2ラウンドで品質を担保する。
+---
+
 # /select-repos スキル
 
 `research.md` を読んでビジネスアイデアに必要なリポジトリを選定する。
@@ -57,27 +62,22 @@ Round 3: builder が修正 → critic が再評価 → APPROVE or ESCALATE
 ### plugin（インストール: claude plugin add）
 | リポジトリ | 用途 | コマンド |
 |---|---|---|
-| obra/superpowers | 品質フレームワーク | `claude plugin add obra/superpowers` |
 
 ### clone（インストール: git clone）
 | リポジトリ | 用途 | パス |
 |---|---|---|
-| disler/claude-code-hooks-mastery | フック設計参考 | `.factory/refs/hooks-mastery` |
 
 ### copy（ファイルコピー）
 | リポジトリ | コピー元 | コピー先 |
 |---|---|---|
-| ... | ... | ... |
 
 ### mcp（claude_desktop_config.json に追記）
 | リポジトリ | 用途 | 設定キー |
 |---|---|---|
-| ... | ... | ... |
 
 ### reference（book/summaries/ を参照）
 | リポジトリ | サマリーファイル | 参照目的 |
 |---|---|---|
-| hesreallyhim/awesome-claude-code | summaries/awesome-claude-code.md | ベストプラクティス参照 |
 
 ## 選定理由
 [各リポジトリを選んだ理由を簡潔に]
